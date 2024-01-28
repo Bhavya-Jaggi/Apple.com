@@ -1,0 +1,834 @@
+/* BASIC ADJUSTMENTS  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 31);
+    font-style: normal;
+}
+
+#a {
+    text-decoration: none;
+    color: #2997ff;
+    ;
+}
+
+#a:hover {
+    text-decoration: underline;
+}
+
+#f-size {
+    font-size: 15px;
+    /*less than symbol ka size*/
+}
+
+/* NAVBAR SPECIFIC STUFF */
+
+.nav {
+    background-color: rgb(22 22 23 / 80%);
+    display: flex;
+    max-height: 44px;
+
+}
+
+.fazri
+{
+    background-color: rgb(22 22 23 / 80%);
+    height: 44px;
+}
+
+.farzi2{
+    color:  rgb(22 22 23 / 80%);
+    margin-top: 11px;
+}
+/* navbar div ul li a{
+} */
+
+#nav-apple-logo {
+    width: 17px;
+    height: 21px;
+    padding-top: 2px;
+}
+
+navbar ul li {
+    list-style: none;
+}
+
+navbar ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .8);
+    /* font-size: 0.9rem; */
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1;
+    position: sticky;
+    top: 0;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 11vw;
+    padding-right: 12vw;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#nav-div {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-search-logo {
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+#nav-shopping-bag-logo {
+    font-size: 14px;
+    padding-top: 7px;
+    color: white;
+}
+
+.section1 {
+    max-height: 44px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#span-text-top-section {
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 0;
+    color: black;
+}
+
+#one {
+    font-size: 0.6rem;
+}
+
+.shop-iphone-font{
+    font-size: 0.8rem;
+}
+
+/* 1ST PAGE SPECIFIC STUFF */
+
+
+.top-txt {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100vw;
+}
+
+#top-txt-1 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-top: -52px;
+    padding: 0px;
+}
+
+.img {
+    width: 77vw;
+    height: 189px;
+    padding: 5px;
+}
+
+#top-txt-3 {
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+#top-txt-4 {
+    font-size: 1.3rem;
+    text-decoration: none;
+    /* color: #2997ff; */
+}
+
+#top-txt-4:hover {
+    text-decoration: underline;
+}
+
+.bg-color::before {
+    content: "";
+    position: absolute;
+    background-color: #fbfbfd;
+    ;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.iphone-pro-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    max-height: 120vh;
+    flex-direction: column;
+}
+
+.iphone-pro-imgbg {
+    /* position: relative; */
+    width: 75vw;
+    height: 75vh;
+    /* top: 150px;
+    left: 150px; */
+    /* padding: 10vh 10vw; */
+
+}
+
+#iphone-pro-img-text-1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+#iphone-pro-img-text-2 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+/* #iphoneimg-text-3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+} */
+
+section span a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* PAGE 3 */
+
+.iphoneimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    max-height: 97vh;
+    flex-direction: column;
+}
+
+.iphoneimgbg {
+    /* position: relative; */
+    width: 60vw;
+    height: 68vh;
+    /* top: 150px;
+    left: 150px; */
+    /* padding: 10vh 10vw; */
+
+}
+
+#iphoneimg-text-1 {
+    color: black;
+    font-size: 3rem;
+    font-weight: 550;
+    padding-top: 50px;
+    /* font-weight: 400; */
+}
+
+#iphoneimg-text-2 {
+    color: black;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+
+/* FLEXBOX JISME 2 FLEXBOC AUR HAI AKA PAGE 4 */
+
+
+
+.p-flex {
+    display: flex;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+/* USKA LEFT VALA  */
+
+
+
+
+.dl-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    height: 42vw;
+}
+
+#txt-apple {
+    width: 173px;
+    height: 33px;
+    margin-top: -12px;
+}
+
+#t-text-1 {
+    font-weight: 550;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+
+}
+
+#t-text-2{
+    margin-bottom: 20px;
+    font-weight: 550px;
+}
+
+#t-text-4 {
+    height: 57vh;
+    /* padding-top: 11px; */
+    /* margin-top: 172px; */
+    max-width: 48vw;
+}
+
+
+/* USKA RIGHT VALA  */
+.dr-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 49vw;
+    height: 42vw;
+
+}
+
+#bg-side-2 {
+    width: 47vw;
+    height: 61vh;
+    margin-left: 26px;
+}
+
+#r-t-text-2 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+#r-t-text-3 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.3rem;
+
+}
+
+
+
+
+/* IWATCH vala  */
+
+.w-sl-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 50vw;
+    /* margin-left: 10px; */
+    /* border: 10px solid white; */
+}
+
+#w-tl-flex-4{
+    width: 40vw;
+    height: 68vh;
+}
+
+#w-tl-flex-1{
+    width: 10vw;
+    height: 8vh;
+}
+
+#w-tl-flex-2{
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+
+
+/* DUSARA FLEXBOX OF iPad and MAc */
+
+
+.w-p-flex{
+    display: flex;
+    max-width: 100vw;
+    height: 110vh;
+    /* flex-direction: row-reverse; */
+}
+
+
+
+/* ipad vala  */
+
+
+
+.w-sr-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    height: 50vw;
+}
+
+#w-tr-flex-4{
+    width: 25vw;
+    height: 66vh;
+    /* margin-left: 41px; */
+}
+
+#w-tr-flex-1{
+    font-weight: 550;
+    font-size: 2.4rem;
+    padding-bottom: 3px;
+}
+
+#w-tr-flex-2{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+
+/* Mac vala  */
+
+.mac-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 51vw;
+    height: 50vw;
+    background-color: black;
+    border: 10px solid white;
+}
+
+#mac-txt-4{
+    width: 78vh;
+    height: 19vw;
+    margin-top: 80px;
+}
+
+#mac-txt-1{
+    font-weight: 550;
+    font-size: 2.4rem;
+    padding-bottom: 3px;
+    color: white;
+}
+
+#mac-txt-2{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+/* 3rd FLEXBOX OF APPLE CARD AND HOMOPOD  */
+
+.p-hc-flex{
+    display: flex;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.s-l-h-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    height: 97vh;
+    background-color: black;
+    border: 17px solid white;
+}
+
+#t-l-h-txt-4{
+    width: 46vw;
+    height: 59vh;
+    margin-top: 23px;
+}
+
+#t-l-h-txt-1
+{
+    font-weight: 550;
+    font-size: 2.4rem;
+    padding-bottom: 3px;
+    color: white;
+    margin-top: 33px;
+    
+}
+
+#t-l-h-txt-2{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+/* APPLE CARD  */
+
+
+.s-r-c-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49vw;
+    height: 97vh;
+    background-color: white;
+    border: 17px solid white;
+}
+
+#t-r-c-txt-5{
+    height: 53vh;
+    width: 35vw;
+}
+
+#t-r-c-txt-3{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+#t-r-c-txt-2{
+    font-weight: 400;
+    font-size: 1.4rem;
+    /* margin-bottom: 10px; */
+    color: black;
+
+}
+
+
+#t-r-c-txt-1{
+    padding-bottom: 3px;
+    height: 6vh;
+    width: 8vw;
+    margin-top: 1px;
+}
+
+#t-r-c-txt-4{
+    margin-bottom: 15px;
+}
+
+
+
+/* slide show  */
+
+
+
+#c-hw {
+    height: 90vh;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#btnc {
+    position: absolute;
+    margin-left: -399px;
+    border-radius: 100px;
+    margin-top: -34px;
+}
+
+#img-hw {
+    height: 507px;
+    width: 500px;
+}
+.butt{
+
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    display: flex;
+    margin-left: -76px;
+}
+
+#inline-captcha{
+    display: flex;
+}
+
+
+#l-c {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: -100vw;
+    margin-right: 70vw;
+    width: 14vw;
+    height: 88vh;
+}
+
+#imgo {
+    opacity: 0.3;
+    width: 10vw;
+    height: 90vh;
+    box-sizing: var(-86vw);
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100vw;
+}
+
+
+
+#r-c {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: -14vw;
+    margin-right: 0vw;
+    width: 14vw;
+    height: 88vh;
+}
+
+#imgr {
+    opacity: 0.3;
+    width: 10vw;
+    height: 90vh;
+}
+
+#op{
+    opacity: 0.9;
+}
+
+
+/* FOOTER  */
+
+
+.upper-footer{
+    width: 100vw;
+    background-color: #f5f5f7;
+    border-top: 1px solid #d2d2d7;
+    max-height: 200vh;
+}
+
+.list-making{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+footer ul li{
+    list-style: none;
+    font-size: 0.8rem;
+    color: #6e6e73;
+}
+
+footer ul li a{
+    color: #424245;
+}
+
+
+/* LOWER FOOTER  */
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    margin-left: 11.2vw;
+    margin-right: 10vw;
+}
+
+h6{
+    font-size: 0.8rem;
+    color: #1d1d1f;
+    font-weight: 550;
+}
+
+div div ul li{
+    margin-left: -2.4vw;
+    padding: 3px;
+    color: #424245;
+}
+
+
+.bottom-txt{
+    margin-left: 162px;
+    font-size: 0.85rem;
+    color: #6e6e73;
+}
+
+
+.ultimate-footer-flex{
+    display: flex;
+    width: 78vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: space-between;
+    color: #6e6e73;
+    margin-left: 158px;
+    font-size: 0.85rem;
+}
+
+
+
+
+
+
+
+
+/* IPHONE 15 PRO KA MAAL  */
+
+
+
+.iphone-15-pro-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    max-height: 110vh;
+    flex-direction: column;
+}
+
+
+/* 
+.iphone-pro-imgbg {
+    position: relative;
+    width: 75vw;
+    height: 75vh;
+    top: 150px;
+    left: 150px; 
+    padding: 10vh 10vw;
+
+} */
+
+#iphone-15-pro-img-text-1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+#iphone-15-pro-img-text-2 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.iphone-15-pro-image {
+    width: 79vw;
+    height: 66vh;
+    margin-left: 14vw;
+}
+
+
+/* IPHONE 15 KA MAAL  */
+
+
+
+.iphone-15-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    width: 100vw;
+    max-height: 110vh;
+    flex-direction: column;
+}
+
+
+
+#iphone-15-img-text-1 {
+    color: black;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+#iphone-15-img-text-2 {
+    color: black;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.iphone-15-image {
+    width: 100vw;
+    height: 48vh;
+}
+
+
+
+/* i WATCH SERIES 9 VALA SECTION  */
+
+
+.iwatch-9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;
+    height: 110vh;
+    background-image: url("/img/series9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 100vw 120vh;
+
+}
+
+#iwatch9-logo{
+    width: 14vw;
+    height: 12vh;
+    margin-top: 56vh;
+}
+
+#iwatch9-txt-1{
+    color: white;
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+}
+
+.btn-border{
+    border-radius: 25px;
+}
+
+#iwatch-options{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
